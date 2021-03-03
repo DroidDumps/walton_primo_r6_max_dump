@@ -1,0 +1,13 @@
+vendor.sprd.hardware.fingerprintmmi::IFingerprintmmi               u:object_r:hal_fingerprintmmi_hwservice:s0
+vendor.sw.swfingerprint::ISwfingerprint u:object_r:hal_swfingerprint_hwservice:s0
+vendor.sprd.hardware.radio::IExtRadio     u:object_r:hal_extRadio_hwservice:s0
+vendor.sprd.hardware.radio.flavor::IFlvRadio     u:object_r:hal_extRadio_hwservice:s0
+vendor.sprd.hardware.log::ILogControl     u:object_r:hal_log_hwservice:s0
+vendor.sprd.hardware.wifi.hostapd::IHostapd     u:object_r:hal_hostapd_hwservice:s0
+vendor.sprd.hardware.thermal::IExtThermal     u:object_r:hal_extthermal_hwservice:s0
+vendor.sprd.hardware.connmgr::IConnmgr     u:object_r:hal_connmgr_hwservice:s0
+vendor.sprd.hardware.power::IPower        u:object_r:hal_power_hwservice:s0
+vendor.sprd.hardware.gnss::IGnssExt     u:object_r:hal_extGnss_hwservice:s0
+vendor.sprd.hardware.aprd::IAprdInfoSync     u:object_r:hal_aprd_hwservice:s0
+vendor.sprd.hardware.enhance::IEnhance     u:object_r:hal_enhance_hwservice:s0
+vendor.sprd.hardware.face::IFace u:object_r:hal_face_hwservice:s0

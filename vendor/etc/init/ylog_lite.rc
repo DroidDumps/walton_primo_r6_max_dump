@@ -1,0 +1,15 @@
+service vendor.ylog_lite /vendor/bin/ylog_lite
+    class main
+    socket ylog seqpacket 0666 ylog ylog
+    user root
+    disabled
+    writepid /dev/cpuset/system-background/tasks
+
+on post-fs-data
+    mkdir /data/vendor/ylog_lite 0777
+
+on property:persist.vendor.ylog_lite.enabled=1
+    start vendor.ylog_lite
+
+on property:persist.vendor.ylog_lite.enabled=0
+    stop vendor.ylog_lite	

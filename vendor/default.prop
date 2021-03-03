@@ -1,0 +1,10 @@
+#
+# ADDITIONAL VENDOR DEFAULT PROPERTIES
+#
+ro.vndk.version=28
+ro.zygote=zygote64_32
+ro.logd.size.stats=64K
+log.tag.stats_log=I
+camera.disable_zsl_mode=1
+persist.sys.usb.config=ptp
+sys.usb.controller=musb-hdrc.0.auto

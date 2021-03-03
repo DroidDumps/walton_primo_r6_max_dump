@@ -1,0 +1,18 @@
+on post-fs
+    insmod /vendor/lib/modules/tcs3430.ko
+
+on boot
+    chmod 664 /sys/devices/virtual/input/input5/tcs3430_als_x
+    chmod 664 /sys/devices/virtual/input/input5/tcs3430_als_y
+    chmod 664 /sys/devices/virtual/input/input5/tcs3430_als_z
+    chmod 664 /sys/devices/virtual/input/input5/tcs3430_als_ir1
+    chmod 664 /sys/devices/virtual/input/input5/tcs3430_als_gain
+    chmod 664 /sys/devices/virtual/input/input5/tcs3430_als_atime
+
+
+    chown root system /sys/devices/virtual/input/input5/tcs3430_als_x
+    chown root system /sys/devices/virtual/input/input5/tcs3430_als_y
+    chown root system /sys/devices/virtual/input/input5/tcs3430_als_z
+    chown root system /sys/devices/virtual/input/input5/tcs3430_als_ir1
+    chown root system /sys/devices/virtual/input/input5/tcs3430_als_gain
+    chown root system /sys/devices/virtual/input/input5/tcs3430_als_atime

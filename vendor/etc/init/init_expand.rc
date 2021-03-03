@@ -1,0 +1,2 @@
+on late-fs
+   exec u:r:vendor_init:s0 root root -- /vendor/bin/init_expand

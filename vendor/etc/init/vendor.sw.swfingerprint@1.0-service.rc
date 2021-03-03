@@ -1,0 +1,6 @@
+
+on post-fs
+    chown system system /dev/sunwave_fp
+    chmod 664 /dev/sunwave_fp
+    
+    

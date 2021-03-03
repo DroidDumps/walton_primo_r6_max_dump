@@ -1,0 +1,55 @@
+on post-fs
+    insmod /vendor/lib/modules/leds-sprd-bltc-rgb.ko
+
+on boot
+    wait /sys/class/leds/red/brightness
+    wait /sys/class/leds/green/brightness
+    wait /sys/class/leds/blue/brightness
+
+    wait /sys/class/leds/red_bl/on_off
+    wait /sys/class/leds/green_bl/on_off
+    wait /sys/class/leds/blue_bl/on_off
+
+    chmod 664 /sys/class/leds/red/brightness
+    chmod 664 /sys/class/leds/green/brightness
+    chmod 664 /sys/class/leds/blue/brightness
+
+    chmod 664 /sys/class/leds/red_bl/high_time
+    chmod 664 /sys/class/leds/red_bl/low_time
+    chmod 664 /sys/class/leds/red_bl/rising_time
+    chmod 664 /sys/class/leds/red_bl/falling_time
+    chmod 664 /sys/class/leds/red_bl/on_off
+
+    chmod 664 /sys/class/leds/green_bl/high_time
+    chmod 664 /sys/class/leds/green_bl/low_time
+    chmod 664 /sys/class/leds/green_bl/rising_time
+    chmod 664 /sys/class/leds/green_bl/falling_time
+    chmod 664 /sys/class/leds/green_bl/on_off
+
+    chmod 664 /sys/class/leds/blue_bl/high_time
+    chmod 664 /sys/class/leds/blue_bl/low_time
+    chmod 664 /sys/class/leds/blue_bl/rising_time
+    chmod 664 /sys/class/leds/blue_bl/falling_time
+    chmod 664 /sys/class/leds/blue_bl/on_off
+
+    chown root system /sys/class/leds/red/brightness
+    chown root system /sys/class/leds/green/brightness
+    chown root system /sys/class/leds/blue/brightness
+
+    chown root system /sys/class/leds/red_bl/high_time
+    chown root system /sys/class/leds/red_bl/low_time
+    chown root system /sys/class/leds/red_bl/rising_time
+    chown root system /sys/class/leds/red_bl/falling_time
+    chown root system /sys/class/leds/red_bl/on_off
+
+    chown root system /sys/class/leds/green_bl/high_time
+    chown root system /sys/class/leds/green_bl/low_time
+    chown root system /sys/class/leds/green_bl/rising_time
+    chown root system /sys/class/leds/green_bl/falling_time
+    chown root system /sys/class/leds/green_bl/on_off
+
+    chown root system /sys/class/leds/blue_bl/high_time
+    chown root system /sys/class/leds/blue_bl/low_time
+    chown root system /sys/class/leds/blue_bl/rising_time
+    chown root system /sys/class/leds/blue_bl/falling_time
+    chown root system /sys/class/leds/blue_bl/on_off

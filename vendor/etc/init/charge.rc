@@ -1,0 +1,33 @@
+on init_charge
+    insmod /vendor/lib/modules/leds-sprd-bltc-rgb.ko
+ 
+    mkdir /mnt/vendor 0771 system system
+    mount ext4 /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/prodnv /mnt/vendor
+    chown system system /mnt/vendor
+    chmod 0771 /mnt/vendor
+
+    chmod 664 /sys/class/leds/red/brightness
+    chmod 664 /sys/class/leds/green/brightness
+    chmod 664 /sys/class/leds/blue/brightness
+
+    chown root system /sys/class/leds/red/brightness
+    chown root system /sys/class/leds/green/brightness
+    chown root system /sys/class/leds/blue/brightness
+
+on early-init
+    start ueventd
+
+on charger
+    class_start charger
+
+service ueventd /sbin/ueventd
+    class core
+    critical
+    seclabel u:r:ueventd:s0
+    shutdown critical
+
+service vendor.charge /vendor/bin/charge
+    class charger
+    group input system
+    user root
+    oneshot

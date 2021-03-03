@@ -1,0 +1,26 @@
+on post-fs-data
+    chown system system /proc/mdbg
+    chown system root /proc/mdbg/assert
+    chown system system /proc/mdbg/at_cmd
+    chown system root /proc/mdbg/loopcheck
+    chmod 770 /proc/mdbg
+    chmod 760 /proc/mdbg/assert
+    chmod 760 /proc/mdbg/at_cmd
+    chmod 760 /proc/mdbg/loopcheck
+
+    insmod /vendor/lib/modules/sprdbt_tty.ko
+    chmod 660 /sys/class/rfkill/rfkill0/state
+    chown bluetooth net_bt_admin /sys/class/rfkill/rfkill0/state
+    chmod 660 /sys/class/rfkill/rfkill0/type
+    chown bluetooth net_bt_admin /sys/class/rfkill/rfkill0/type
+
+    insmod /vendor/lib/modules/sprd_fm.ko
+    mkdir /data/vendor/bluetooth 0770 bluetooth bluetooth
+
+    chmod 660 /sys/devices/platform/wcn_bt/dumpmem
+    chown bluetooth net_bt_admin /sys/devices/platform/wcn_bt/dumpmem
+service wifi_mac_gen /vendor/bin/wifi_mac_gen
+    class late_start
+    user wifi
+    group wifi root shell system readproc inet bluetooth net_bt_admin
+    oneshot

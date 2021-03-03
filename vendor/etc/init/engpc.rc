@@ -1,0 +1,24 @@
+service vendor.engpcclientlte /vendor/bin/engpc -p l -a /dev/ttyGS5 -d /dev/ttyGS6 -l /dev/ttyGS7
+    class core
+    user root
+    group system radio shell net_bt_admin input audio wifi media camera
+    oneshot
+
+service vendor.engpcclientwcn /vendor/bin/engpc -p wcn -a /dev/ttyGS2 -d /dev/ttyGS3
+    class core
+    user root
+    group system radio shell net_bt_admin media camera
+    disabled
+    oneshot
+
+on property:persist.vendor.wcn.log_dest=0
+   stop vendor.engpcclientwcn
+
+on property:persist.vendor.wcn.log_dest=1
+   start vendor.engpcclientwcn
+
+on property:persist.vendor.wcn.log_dest=2
+   stop vendor.engpcclientwcn
+
+on property:ro.bootmode=cali && property:vendor.flag.sys.usb.config=1
+   setprop sys.usb.config vser

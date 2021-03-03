@@ -1,0 +1,4 @@
+service vendor.power-hal-3-0-sprd /vendor/bin/hw/vendor.sprd.hardware.power@3.0-service
+    class hal
+    user root
+    group system

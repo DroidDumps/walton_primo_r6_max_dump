@@ -1,0 +1,4 @@
+#extend data service for phoneserver
+service vendor.ext_data /vendor/bin/ext_data
+    class main
+    user root

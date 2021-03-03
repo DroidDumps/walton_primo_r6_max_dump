@@ -1,0 +1,61 @@
+service vendor.factorytest /vendor/bin/factorytest
+    user root
+    group root input radio system sdcard_rw net_bt_admin wifi camera media
+
+service console-ft /system/bin/sh
+    console
+    user root
+    group root
+    seclabel u:r:shell:s0
+
+on property:ro.bootmode=factorytest
+    class_start early_hal
+    class_start hal
+    start sensors-hal-1-0
+    start vendor.sensors-hal-1-0
+    setprop persist.ylog.enabled 1
+    start ylog
+    start slogmodem
+    start hwservicemanager
+    start console-ft
+    start debuggerd
+    start debuggerd64
+    start modem_control
+    start logd
+    start gnss_download
+    start audioserver
+    start media
+    start wcnd
+    start wcnd_eng
+    start gpsd
+    start servicemanager
+    start wificond
+    start vendor.factorytest
+
+#support for android8.1 trigger by bootmode=factorytest in init.rc
+on factorytest
+    class_start early_hal
+    class_start hal
+    start sensors-hal-1-0
+    start vendor.sensors-hal-1-0
+    setprop persist.ylog.enabled 1
+    start ylog
+    start slogmodem
+    start hwservicemanager
+    start console-ft
+    start debuggerd
+    start debuggerd64
+    start vendor.modem_control
+    start logd
+    start gnss_download
+    start audioserver
+    start media
+    start wcnd
+    start wcnd_eng
+    start gpsd
+    start servicemanager
+    start wificond
+    chmod 0666 /dev/adf-interface0.0
+    chmod 0666 /dev/adf-overlay-engine0.0
+    chmod 0666 /dev/adf0
+    start vendor.factorytest
