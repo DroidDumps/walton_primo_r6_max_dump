@@ -1,0 +1,14 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+dt=dt.img
+kernel_size=17264152
+ramdisk_size=0
+dtb_size=1
+base_addr=0x00000000
+kernel_offset=0x00008000
+ramdisk_offset=0x05400000
+tags_offset=0x00000100
+dtbo_offset=0x00000000
+cmd_line='console=ttyS1,115200n8 buildvariant=user'
+board=""
