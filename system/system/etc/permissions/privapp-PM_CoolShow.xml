@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+    <privapp-permissions package="com.qiku.android.show">
+      <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+      <permission name="android.permission.BIND_WALLPAPER"/>
+      <permission name="android.permission.CLEAR_APP_CACHE"/>
+      <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+      <permission name="android.permission.DUMP"/>
+      <permission name="android.permission.REBOOT"/>
+      <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+      <permission name="android.permission.CHANGE_CONFIGURATION"/>
+      <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    </privapp-permissions>
+</permissions>

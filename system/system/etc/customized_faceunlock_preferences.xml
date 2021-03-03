@@ -1,0 +1,75 @@
+<!-- 请修改该配置文件后,集成到/system/etc/目录下面 -->
+<!-- 各个选项请不要修改对应的key值,只修改defaultValue的值,在取值范围内选取,设置取值范围之外的值则为无效值 -->
+<FacePreferences>
+    <!--光线传感是否正常配置，此值需要项目确认光线传感器是否能正常使用，大部分机器传感器是正常的，
+    只有小部分机器没有正常配置光线传感器，如果此时强行制此值为on，人脸解锁的功能会异常 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <Item>
+        <key>face_light_sensor_enable</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+
+    <!-- 是否配置屏幕补光功能，在光线不足的环境下，通过显示白色背景界面并提亮当前屏幕界面的亮度，
+    来进行光线补光，以提高脸部的正确识别率 -->
+    <!-- 取值范围：{on,off} -->
+    <!-- 此设置依赖于光线传感face_light_sensor_enable的配置，当光线传感face_light_sensor_enable配置为on的情况下，
+    此设置才有效; 光线传感器没有正常配置时，屏幕补光功能默认没有 -->
+    <Item>
+        <key>face_screen_fill_enable</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+
+    <!-- 光线传感器上报给应用层的光线值(单位lux)，在人脸解锁功能正在工作时，当应用层接收到光线传感器上报的当前环境光线值低于此阈值时，
+    开始进入屏幕补光，显示白色背景同时提亮当前屏幕亮度 -->
+    <!-- 取值范围：[0.5 – 10.0] -->
+    <!-- 此设置依赖于屏幕补光功能face_screen_fill_enable 的配置，当屏幕补光功能face_screen_fill_enable配置为on的情况下，此设置才有效-->
+    <Item>
+        <key>face_screen_fill_threshold</key>
+        <defaultValue>2.1</defaultValue>
+    </Item>
+
+    <!--屏幕补光时最大亮度， 此值如果配置过低(如小于0.25)时会使补光界面补充的光线不足以正确识别到人脸，达不到黑暗环境下也能解锁的效果，
+    如果配置过度(如大于0.9)时，会使补光界面补充的光线太亮而导致主观上有些刺眼，因此此值需要适当平衡取值
+    目前的经验值是在摄像头光圈进光量大的情况下，可以配置成0.3到0.5，进光量较小的情况下可以适当以上提，具体取值可以以能正常解锁为准-->
+    <!-- 取值范围：[0-1.0] -->
+    <!-- 当屏幕补光功能face_screen_fill_enable配置为on的情况下，此设置才有效-->
+    <Item>
+        <key>face_screen_fill_level</key>
+        <defaultValue>0.28</defaultValue>
+    </Item>
+
+    <!--屏幕补光时亮度从当前亮度到face_screen_fill_level指定的亮度的渐变时间长(ms)-->
+    <!-- 取值范围：[0-5000]之间的整数 -->
+    <!-- 当屏幕补光功能face_screen_fill_enable配置为on的情况下，此设置才可能有效-->
+    <Item>
+        <key>face_screen_fill_duration</key>
+        <defaultValue>2200</defaultValue>
+    </Item>
+
+    <!-- 是否配置活体检测功能。打开时，能防止大部分电子照片的防伪攻击，但会稍微影响解锁时间，关闭时，安全性能下降。
+    如果需要加生物防伪检测（活体检测），请联系张焰焰和对应的商务沟通。基本原则是2G以下，
+    前置sensor 5M以下的机器不予支持生物防伪检测。活体检测分为两个安全等级，第一级安全等级：支持手机里的电子照片和视频的防伪攻击，
+    第二安全等级：支持大屏幕电子照片、冲印照片、3D模型的防伪攻击。第一级安全等级为免费也不需要适配，需要把此配置开关配置为on。
+    第二级安全等级为最高安全等级，需要收费而且需要针对机型进行适配，适配完成后此配置开关配置为on。-->
+    <!-- 取值范围：{on,off} -->
+    <Item>
+        <key>face_spoof_enable</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+
+    <!-- 是否需要配置人脸检测时在当前界面增加一个动画扫描界面。此为客户特殊定制，一般项目配置为默认off即可-->
+    <!-- 取值范围：{on,off} -->
+    <Item>
+        <key>face_scan_enable</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+
+    <!-- 快速识别(用于适配人脸穿戴场景)的阈值-->
+    <!-- 此值需要小心取值，过高会导致匹配成功率降低，过低会降低安全性-->
+    <!-- 取值范围：{0.83,0.5} -->
+    <Item>
+        <key>face_fast_recog_value</key>
+        <defaultValue>0.768</defaultValue>
+    </Item>
+</FacePreferences>
+

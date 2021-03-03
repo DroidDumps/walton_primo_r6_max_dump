@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--该文件用于自启动、一键清理、灭屏杀白名单的项目差异化需求,各项目开发人员可以根据项目的实际情况修改。
+    增加应用到自启动、一键清理或者灭屏杀白名单总是可以生效，但是有可能会带来性能问题，请谨慎处理。
+	配置格式：包名=color (4: 灰, 8:黑, 10:白)
+	系统应用默认是白，第三方应用默认是黑。
+	集成路径：system/etc/
+-->
+<resources>
+    <string-array name="modun_normal_list">
+        <item>com.qiku.android.calendar=4</item>
+        <item>com.schedule.calendar=4</item>
+        <item>com.qiku.virusisolation=4</item>
+        <item>com.qiku.android.scanner=4</item>
+        <item>com.qiku.android.calendar.widget=4</item>
+        <item>com.qiku.android.yellowpager=4</item>
+        <item>com.qiku.android.setupwizard=4</item>
+        <item>com.qiku.cleaner=4</item>
+        <item>com.tencent.mm=10</item>
+        <item>com.tencent.mobileqq=10</item>
+        <item>com.whatsapp=10</item>
+        <item>com.hy.minifetion=10</item>
+        <item>cn.com.fetion.pad=10</item>
+        <item>im.yixin=10</item>
+        <item>com.alibaba.mobileim=4</item>
+        <item>com.tencent.minihd.qq=10</item>
+        <item>com.tencent.hd.qq=10</item>
+        <item>com.tencent.mobileqqi=10</item>
+        <item>com.tencent.mqq=10</item>
+        <item>com.tencent.qq=10</item>
+        <item>com.tencent.qqlite=10</item>
+        <item>cn.ledongli.ldl=4</item>
+        <item>com.codoon.gps=4</item>
+        <item>co.runner.app=4</item>
+        <item>com.autonavi.minimap=4</item>
+        <item>com.wdstechnology.android.kryten=4</item>
+        <item>com.wxb.gudong.client=4</item>
+        <item>com.secure.secid=4</item>
+        <item>com.securespaces.android.settings=4</item>
+        <item>com.svox.pico=4</item>
+        <item>com.tencent.android.location=4</item>
+        <item>com.wdstechnology.android.kryten=4</item>
+        <item>net.qihoo.smail=4</item>
+        <item>org.codeaurora.ims=10</item>
+        <item>com.qihoo.android.float_window=4</item>
+        <item>com.qihoo.hotfix=4</item>
+        <item>com.qihoo.privpho360=4</item>
+        <item>com.qihoo.vpnmaster=4</item>
+        <item>com.qihoo360.android.location=4</item>
+        <item>com.qihoo360.byod.home=4</item>
+        <item>com.qihoo360.cloneit=4</item>
+        <item>com.qihoo360.contacts=4</item>
+        <item>com.qihoo360.feichuan=4</item>
+        <item>com.qihoo360.transfer=4</item>
+        <item>com.qihu.gudong.client=4</item>
+        <item>com.change.unlock.manufacturer_sd=4</item>
+        <item>com.cloudsx.android.coreservice=4</item>
+        <item>com.eg.android.AlipayGphone=4</item>
+        <item>com.greenpoint.android.mc10086.activity=4</item>
+        <item>com.icoolme.android.weather=4</item>
+        <item>com.iflytek.speechsuite=4</item>
+        <item>cn.richinfo.dm=4</item>
+        <item>com.alipay.security.mobile.authenticator=4</item>
+        <item>com.amap.android.location=4</item>
+        <item>com.facebook.katana=10</item>
+        <item>com.facebook.services=10</item>
+        <item>com.twitter.android=10</item>
+        <item>jp.naver.line.android=10</item>
+        <item>com.skype.raider=10</item>
+        <item>com.viber.voip=10</item>
+        <item>com.qiku.osassistant=10</item>
+        <item>com.qiku.android.rcsservice=10</item>
+        <item>com.qiku.powerengine=10</item>
+        <item>com.power.engine=10</item>
+        <item>com.cps.android.mms=10</item>
+        <item>com.cps.smartmms=10</item>
+        <item>com.qiku.logsystem=10</item>
+        <item>com.kugou.android=4</item>
+        <item>com.example.spbatteryinfo=10</item><!-- battery test -->
+        <item>com.into.stability=10</item><!-- battery test -->
+    </string-array>
+</resources>

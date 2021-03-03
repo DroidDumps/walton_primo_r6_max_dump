@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <prechannel channel_id="-1" channel_name="null" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/87" notification="1"></prechannel>
+    <prechannel channel_id="-1" channel_name="null" enable="1" save="1" mcc="-1" mnc="-1" vibrate="1" sound_uri="content://media/internal/audio/media/87" notification="1"></prechannel>
+</root>

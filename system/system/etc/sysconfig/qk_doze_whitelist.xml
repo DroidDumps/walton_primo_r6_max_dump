@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- for 360OS doze whitelist. -->
+<config>
+    <!-- for cloud service -->
+    <allow-in-power-save package="com.qms.msgsrv" />
+    <allow-in-power-save package="com.cloudsx.android.coreservice" />
+    <!-- for OTA -->
+    <allow-in-power-save package="com.qiku.android.ota" />
+    <allow-in-power-save package="com.android.osfota" />
+    <allow-in-power-save package="com.android.registersystemf" />
+    <!-- transfer assistant -->
+    <allow-in-power-save package="com.qihoo360.transfer" />
+    <allow-in-power-save package="com.qihoo360.cloneit" />
+</config>

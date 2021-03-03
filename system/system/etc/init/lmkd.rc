@@ -1,0 +1,8 @@
+service lmkd /system/bin/lmkd
+    class core
+    group root readproc
+    critical
+    socket lmkd seqpacket 0660 system system
+    socket lmfs stream 0660 root system
+    socket vmpressure stream 0666 root system
+    writepid /dev/cpuset/system-background/tasks

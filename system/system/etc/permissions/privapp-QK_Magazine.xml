@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+    <privapp-permissions package="com.qiku.magazine.me">
+      <permission name="android.permission.READ_WALLPAPER_INTERNAL"/>
+      <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+      <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+      <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+      <permission name="android.permission.REAL_GET_TASKS"/>
+    </privapp-permissions>
+</permissions>

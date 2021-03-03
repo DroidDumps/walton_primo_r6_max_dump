@@ -1,0 +1,31 @@
+<!--此xml文件依赖编译时候导入的SPEC_VERSION -->
+<!--平台通用的有四个cfg.xml文件，位置如下： -->
+<!--device/360OS/etc/cfg.xml ,供大多数标准版本和国内lite版本使用 -->
+<!--device/360OS/operator/cts/cfg.xml ,仅供abroad cts使用，区别于通用cfg.xml是把2Dwidget下沉一行以便放置谷歌搜索框 -->
+<!--device/360OS/operator/expressplus/cfg.xml ,仅供abroad expressplus这个版本使用 -->
+<!--device/360OS/operator/lite/cfg.xml ,仅供abroad cts lite和abroad expressplusGo lite这两个版本使用 -->
+<root>
+    <component name="launcher">
+        <item key="GOOGLE_FEED_OVERLAY_ENABLE" value="true"/>
+        <item key="WIDGET3D_REQUIRE_CELLX" value="0"/>
+        <item key="WIDGET3D_REQUIRE_CELLY" value="1"/>
+        <item key="WORKSPACE_ICON_SIZE" value="60"/>
+        <item key="WORKSPACE_GRID_ROWS" value="5"/>
+        <item key="WORKSPACE_GRID_COLUMN" value="4"/>
+        <item key="SUPPORT_ICON_AUTO_ARRANGEMENT" value="true"/>
+        <item key="GO_DISABLE_WIDGETS" value="false"/>
+        <item key="SCROLL_CARDMANAGER2_RIGHT" value="true"/>
+        <item key="QSB_ON_FIRST_SCREEN" value="true"/>
+        <item key="HIDE_PACKAGE_SET" value="com.android.documentsui"/>
+        <item key="OVERLAY_LINKAGE_ENABLE" value="true"/>
+        <item key="ENHANCE_WALLPAPER_RECOGNITION" value="true"/>
+        <item key="ICON_SINGLE_LINE" value="false"/>
+        <item key="WORKSPACE_ICON_TEXT_SIZE" value="12"/>
+        <item key="HIDE_HOTSEAT_ICON_TITLE" value="false"/>
+        <item key="ENABLE_ALL_APPS" value="true"/>
+        <item key="SUPPORT_CLEAN_SETTINGS" value="false"/>
+        <item key="ENABLE_CLEAN_SHORTCUT" value="false"/>
+        <!-- 是否支持冷藏室， true：支持  false：不支持-->
+        <item key="FREEZER_ENABLE" value="false"/>
+    </component>
+</root>

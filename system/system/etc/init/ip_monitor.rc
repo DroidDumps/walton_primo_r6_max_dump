@@ -1,0 +1,4 @@
+service vendor.ip_monitor /system/bin/ip_monitor.sh
+    class main
+    user root
+    oneshot

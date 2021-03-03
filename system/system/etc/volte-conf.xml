@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<allowPlmns>
+<allowPlmn numeric="00101" enable="true"/>
+<allowPlmn numeric="46000" enable="true" xcap="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org"/>
+<allowPlmn numeric="46002" enable="true" xcap="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org"/>
+<allowPlmn numeric="46004" enable="true" xcap="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org"/>
+<allowPlmn numeric="46007" enable="true" xcap="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org"/>
+<allowPlmn numeric="46008" enable="true" xcap="xcap.ims.mnc000.mcc460.pub.3gppnetwork.org"/>
+<allowPlmn numeric="46003" enable="true"/>
+<allowPlmn numeric="46005" enable="true"/>
+<allowPlmn numeric="46011" enable="true"/>
+<allowPlmn numeric="405840" enable="true" xcap="xcap.ims.mnc840.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc840.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405854" enable="true" xcap="xcap.ims.mnc854.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc854.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405855" enable="true" xcap="xcap.ims.mnc855.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc855.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405856" enable="true" xcap="xcap.ims.mnc856.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc856.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405857" enable="true" xcap="xcap.ims.mnc857.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc857.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405858" enable="true" xcap="xcap.ims.mnc858.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc858.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405859" enable="true" xcap="xcap.ims.mnc859.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc859.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405860" enable="true" xcap="xcap.ims.mnc860.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc860.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405861" enable="true" xcap="xcap.ims.mnc861.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc861.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405862" enable="true" xcap="xcap.ims.mnc862.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc862.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405863" enable="true" xcap="xcap.ims.mnc863.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc863.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405864" enable="true" xcap="xcap.ims.mnc864.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc864.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405865" enable="true" xcap="xcap.ims.mnc865.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc865.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405866" enable="true" xcap="xcap.ims.mnc866.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc866.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405867" enable="true" xcap="xcap.ims.mnc867.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc867.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405868" enable="true" xcap="xcap.ims.mnc868.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc868.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405869" enable="true" xcap="xcap.ims.mnc869.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc869.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405870" enable="true" xcap="xcap.ims.mnc870.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc870.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405871" enable="true" xcap="xcap.ims.mnc871.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc871.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405872" enable="true" xcap="xcap.ims.mnc872.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc872.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405873" enable="true" xcap="xcap.ims.mnc873.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc873.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="405874" enable="true" xcap="xcap.ims.mnc874.mcc405.pub.3gppnetwork.org:7077" bsf="bsf.mnc874.mcc405.pub.3gppnetwork.org:7080" cameraresolution="3"/>
+<allowPlmn numeric="45611" enable="true" confuri="sip:1234;phone-context=ims.mnc011.mcc456.3gppnetwork.org@ims.mnc011.mcc456.3gppnetwork.org;user=phone"/>
+<allowPlmn numeric="20201" enable="true" confuri="mmtel@conffactory.ims.mnc001.mcc202.3gppnetwork.org" domain="ims.cosmote.gr" bsf="bsf.mnc001.mcc202.pub.3gppnetwork.org:8080"/>
+<allowPlmn numeric="52005" enable="true" bsf="bsf.ims.mnc005.mcc520.pub.3gppnetwork.org"/>
+<allowPlmn numeric="52047" enable="true"/>
+<allowPlmn numeric="52018" enable="true"/>
+<allowPlmn numeric="45400" enable="true"/>
+<allowPlmn numeric="25001" enable="true"/>
+<allowPlmn numeric="45419" enable="true"/>
+<allowPlmn numeric="45403" enable="true" confuri="sip:19099@ims.mnc003.mcc454.3gppnetwork.org"/>
+<allowPlmn numeric="51009" enable="true" xcap="nafxjktm001.ims.mnc009.mcc510.pub.3gppnetwork.org:7077" bsf="bsf.ims.mnc009.mcc510.pub.3gppnetwork.org:7080"/>
+<allowPlmn numeric="51028" enable="true"/>
+<allowPlmn numeric="44010" cameraresolution="3"/>
+<allowPlmn numeric="52004" enable="true" confuri="sip:conf-factory.ics.mnc004.mcc520.3gppnetwork.org"/>
+<allowPlmn numeric="52003" enable="true" confuri="sip:conf@ims.mnc003.mcc520.3gppnetwork.org"/>
+<allowPlmn numeric="52000" enable="true" confuri="sip:conf-factory.ics.mnc004.mcc520.3gppnetwork.org"/>
+<allowPlmn numeric="26202" enable="true"/>
+<allowPlmn numeric="26204" enable="true"/>
+<allowPlmn numeric="26209" enable="true"/>
+<allowPlmn numeric="28601" enable="true"/>
+<allowPlmn numeric="28602" enable="true"/>
+<allowPlmn numeric="28603" enable="true"/>
+<allowPlmn numeric="46605" confuri="sip:APT_CONF@volte.aptg.com.tw"/>
+<allowPlmn numeric="46697" confuri="sip:conf-factory@ims.taiwanmobile.com"/>
+<allowPlmn numeric="002101" enable="true"/>
+<allowPlmn numeric="502152" enable="true" confuri="sip:conference-factory@yes.my" apn="Sos"/>
+<allowPlmn numeric="510009"  apn="sos"/>
+<allowPlmn numeric="510028"  apn="sos"/>
+
+<allowPlmn numeric="60202" xcap="xcap.ims.mnc002.mcc602.3gppnetwork.org" confuri="mmtel@conf-factory.ims.mnc002.mcc602.3gppnetwork.org"
+           bsf="bsf.ims.mnc002.mcc602.pub.3gppnetwork.org" cameraresolution="4"/>
+<allowPlmn numeric="72402" enable="true" confuri="tel:1234"/>
+<allowPlmn numeric="72403" enable="true"/>
+<allowPlmn numeric="72404" enable="true"/>
+
+<allowPlmn numeric="24412" enable="true"/>
+
+<allowPlmn numeric="71606" cameraresolution="1"/>
+<allowPlmn numeric="73001" cameraresolution="3"/>
+<allowPlmn numeric="732101" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40492" enable="true"/>
+<allowPlmn numeric="62140" enable="true"/>
+<allowPlmn numeric="50216" enable="true"/>
+
+<allowPlmn numeric="45406" enable="true" confuri="sip:conference@ims.mnc006.mcc454.3gppnetwork.org"/>
+<allowPlmn numeric="71401" confuri="mmtel@conf-factory.ims.mnc001.mcc714.3gppnetwork.org"/>
+<allowPlmn numeric="40402" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40403" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40410" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40416" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40431" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40440" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40445" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40449" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40470" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40490" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40492" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40493" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40494" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40495" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40496" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40497" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40498" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40551" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40552" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40553" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40554" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40555" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="40556" enable="true" cameraresolution="3"/>
+
+<allowPlmn numeric="40404" enable="true"/>
+<allowPlmn numeric="40407" enable="true"/>
+<allowPlmn numeric="40412" enable="true"/>
+<allowPlmn numeric="40414" enable="true"/>
+<allowPlmn numeric="40419" enable="true"/>
+<allowPlmn numeric="40422" enable="true"/>
+<allowPlmn numeric="40424" enable="true"/>
+<allowPlmn numeric="40444" enable="true"/>
+<allowPlmn numeric="40456" enable="true"/>
+<allowPlmn numeric="40570" enable="true"/>
+<allowPlmn numeric="40478" enable="true"/>
+<allowPlmn numeric="40482" enable="true"/>
+<allowPlmn numeric="40487" enable="true"/>
+<allowPlmn numeric="40489" enable="true"/>
+<allowPlmn numeric="405799" enable="true"/>
+<allowPlmn numeric="405845" enable="true"/>
+<allowPlmn numeric="405846" enable="true"/>
+<allowPlmn numeric="405848" enable="true"/>
+<allowPlmn numeric="405849" enable="true"/>
+<allowPlmn numeric="405850" enable="true"/>
+<allowPlmn numeric="405852" enable="true"/>
+<allowPlmn numeric="405853" enable="true"/>
+<allowPlmn numeric="65510"  enable="true"/>
+<allowPlmn numeric="33420" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="334020" enable="true" cameraresolution="3"/>
+<allowPlmn numeric="41302" enable="true" cameraresolution="4"/>
+
+<allowPlmn numeric="40420" enable="true"/>
+<allowPlmn numeric="40405" enable="true"/>
+<allowPlmn numeric="40411" enable="true"/>
+<allowPlmn numeric="40430" enable="true"/>
+<allowPlmn numeric="40486" enable="true"/>
+<allowPlmn numeric="40484" enable="true"/>
+<allowPlmn numeric="40413" enable="true"/>
+<allowPlmn numeric="40488" enable="true"/>
+<allowPlmn numeric="40567" enable="true"/>
+<allowPlmn numeric="40566" enable="true"/>
+<allowPlmn numeric="40415" enable="true"/>
+<allowPlmn numeric="40401" enable="true"/>
+<allowPlmn numeric="40460" enable="true"/>
+<allowPlmn numeric="40446" enable="true"/>
+<allowPlmn numeric="40427" enable="true"/>
+<allowPlmn numeric="40443" enable="true"/>
+<allowPlmn numeric="405753" enable="true"/>
+<allowPlmn numeric="405751" enable="true"/>
+<allowPlmn numeric="405756" enable="true"/>
+<allowPlmn numeric="405752" enable="true"/>
+<allowPlmn numeric="405755" enable="true"/>
+<allowPlmn numeric="405754" enable="true"/>
+<allowPlmn numeric="405750" enable="true"/>
+
+<disallowPlmn numeric="45412"/>
+</allowPlmns>

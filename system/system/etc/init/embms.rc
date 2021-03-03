@@ -1,0 +1,9 @@
+service embmsd /system/bin/embmsd
+    class core
+    socket embmsd stream 0666 system system
+    user root
+    group system radio shell
+    disabled
+
+on property:ro.carrier=reliance
+    start embmsd

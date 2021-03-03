@@ -1,0 +1,688 @@
+<!-- 请修改该配置文件后,集成到/system/etc/目录下面 -->
+<!-- 各个选项请不要修改对应的key值,只修改defaultValue的值,在取值范围内选取,设置取值范围之外的值则为无效值 -->
+
+<CameraPreferences>
+    <!-- 美颜模式 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <!-- 知性美颜：针对不同性别,美颜效果不同 -->
+    <Item>
+        <key>pref_camera_beautyshot_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 美白磨皮系数  -->
+    <!-- 取值范围：[0,1.6],默认为1.6,精确到小数点后两位数 -->
+    <!-- 越大美白效果越明显,但越大界面会越有模糊感 -->
+    <Item>
+        <key>pref_camera_beauty_level_parameter_key</key>
+        <defaultValue>1.6</defaultValue>
+    </Item>
+    <!-- 大脸瘦眼系数  -->
+    <!-- 取值范围：[0,1.0],默认为1.0,精确到小数点后两位数 -->
+    <!-- 越大大眼瘦脸效果越明显,但越大人脸就会越失真 -->
+    <Item>
+        <key>pref_camera_slim_level_parameter_key</key>
+        <defaultValue>1</defaultValue>
+    </Item>
+    <!-- 萌颜模式 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <!-- 此设置依赖于美颜功能,当美颜功能开启的情况下,设置才有效;美颜功能关闭时默认关闭 -->
+    <Item>
+        <key>pref_camera_faceu_mode_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 美颜录像模式 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_beautyvideo_mode_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 用于美颜录像清晰度设置  -->
+    <!-- 取值范围：{high,low},默认为high(相对而言), 仅对最高只支持720的机器生效 -->
+    <!-- 说明：low - 使用MPEG_SP编码格式,可选720P,部分mtk机型可能存在回放模糊 -->
+    <!-- 说明：high - MTK使用H264编码格式,只支持480；SPRD使用MPEG_SP编码格式，只支持480 -->
+    <Item>
+        <key>pref_camera_beautyvideo_rate_key</key>
+        <defaultValue>low</defaultValue>
+    </Item>
+    <!-- 笑脸抓拍功能 -->
+    <!-- 取值范围：{on,off},默认为on,在相机设置菜单包含笑脸抓拍选项  -->
+    <Item>
+        <key>pref_camera_smile_capture_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 人脸识别功能  -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <!-- 关闭人脸识别功能可以降低美颜模式下的功耗,但人脸信息识别、笑脸识别、美颜瘦脸与大眼功能、萌颜功能将不能使用 -->
+    <Item>
+        <key>pref_camera_qhface_detect_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 人脸信息识别开关 -->
+    <!-- 取值范围：{on,off},默认为on,在相机设置菜单包含人脸信息识别选项,设置为off则保存人脸信息照片选项会一并隐藏 -->
+    <Item>
+        <key>pref_camera_face_detect_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 虚化模式 -->
+    <!-- 取值范围：{none,bokeh,blur},默认为none -->
+    <!-- bokeh/blur：假双摄虚化功能,基于单颗摄像头在应用层实现,主要应用于假双摄项目 -->
+    <Item>
+        <key>pref_camera_bokeh_type_key</key>
+        <defaultValue>sprd</defaultValue>
+    </Item>
+	<Item>
+		<key>pref_camera_bokeh_algo_type_key</key>
+		<defaultValue>sprd</defaultValue>
+	</Item>
+    <!-- 水印模式 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <Item>
+        <key>pref_camera_watermark_capture_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 全景模式 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <Item>
+        <key>pref_camera_panorama_mode_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 留声拍照模式 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <!-- 此功能需要依赖360图库, 并且需要在framework层mediaprovider添加isaudioJpeg字段 -->
+    <Item>
+        <key>pref_camera_audioimage_mode_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- MTK平台后置手势拍照模式 -->
+    <!-- 取值范围：{on,off},默认为on,设置关闭手势拍照功能  -->
+    <!-- 手势拍照是MTK平台功能,需要在预览界面中出现人脸并比“V”手势才能成功识别 -->
+    <Item>
+        <key>pref_camera_gesture_capture_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- MTK平台前置手势拍照模式 -->
+    <!-- 取值范围：{on,off},默认为on,设置为off则手势拍照不支持前置拍摄  -->
+    <Item>
+        <key>pref_camera_gesture_capture_front_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 预览分辨率 -->
+    <!-- 取值范围：{limit, largest} -->
+    <!-- 相机预览分辨率默认会取接近于屏幕分辨率,既“limit”,如果需要取最大支持的分辨率修改为“largest” -->
+    <Item>
+        <key>pref_camera_preview_size_condition_key</key>
+        <defaultValue>limit</defaultValue>
+    </Item>
+    <!-- 后摄拍照分辨率默认比例 -->
+    <!-- 取值范围：{18:9,16:9,4:3,1:1,full},配置分辨率比例需要底层参数SupportedPictureSizes也能获取对应的分辨率,如果底层不支持则默认为4:3 -->
+    <Item>
+        <key>pref_camera_picturescale_key</key>
+        <defaultValue>4:3</defaultValue>
+    </Item>
+    <!-- 前置拍照分辨率默认比例 -->
+    <!-- 取值范围：{18:9,16:9,4:3,1:1,full},配置分辨率比例需要底层参数SupportedPictureSizes也能获取对应的分辨率,如果底层不支持则默认为4:3 -->
+    <Item>
+        <key>pref_camera_picturescale_front_key</key>
+        <defaultValue>4:3</defaultValue>
+    </Item>
+    <!-- 拍照分辨率 -->
+    <!-- 填入具体数值(单位为万像素)，应用会从底层支持的4:3分辨率中选取最接近该数值的分辨率，并且设置菜单中会显示为填入的数值 -->
+    <!-- 如支持的分辨率中与填入数值差距过大(-50,+50)，则填入的数值无效 -->
+    <!-- 当填入数值为0时会自动选取一个分辨率，填入数值为-1时不使用该分辨率 -->
+    <!-- 每个配置项的第一个数值默认为最高分辨率，不可更改 -->
+    <!-- 以下配置项与pref_camera_picturesize_area_key、pref_camera_picturesize_expanding_key两项不兼容，使用时应删除这两项配置 -->
+    <!-- 后摄4:3分辨率 -->
+    <Item>
+        <key>pref_camera_picturesize_4_3_back</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 后摄16:9分辨率 -->
+    <Item>
+        <key>pref_camera_picturesize_16_9_back</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 后摄1:1分辨率 -->
+    <Item>
+        <key>pref_camera_picturesize_1_1_back</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 后摄18:9分辨率 -->
+    <Item>
+        <key>pref_camera_picturesize_18_9_back</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 前摄4:3分辨率 -->
+    <Item>
+        <key>pref_camera_picturesize_4_3_front</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 前摄16:9分辨率 -->
+    <Item>
+        <key>pref_camera_picturesize_16_9_front</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 前摄1:1分辨率 -->
+    <Item>
+        <key>pref_camera_picturesize_1_1_front</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 前摄18:9分辨率 -->
+    <Item>
+        <key>pref_camera_picturesize_18_9_front</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 后摄全屏分辨率 -->
+    <!-- 仅用于屏幕分辨率大于18:9且支持相应预览、拍照分辨的项目 -->
+    <Item>
+        <key>pref_camera_picturesize_full_back</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 前摄全屏分辨率 -->
+    <!-- 仅用于屏幕分辨率大于18:9且支持相应预览、拍照分辨的项目 -->
+    <Item>
+        <key>pref_camera_picturesize_full_front</key>
+        <defaultValue>0, -1, -1, -1, -1</defaultValue>
+    </Item>
+    <!-- 拍照分辨率简化显示  -->
+    <!-- 取值范围：{on,off},默认为off,设置为on,则设置菜单中拍照分辨率不显示像素,只显示为“4:3”、“16:9”等  -->
+    <Item>
+        <key>pref_camera_picturesize_text_simplify_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 相机后置摄像模式默认分辨率 -->
+    <!-- 取值范围：{1080P,720P,480P},默认为1080P -->
+    <Item>
+        <key>pref_camera_videosize_default_back_key</key>
+        <defaultValue>1080P</defaultValue>
+    </Item>
+    <!-- 相机前置摄像模式默认分辨率 -->
+    <!-- 取值范围：{1080P,720P,480P},默认为1080P -->
+    <Item>
+        <key>pref_camera_videosize_default_front_key</key>
+        <defaultValue>1080P</defaultValue>
+    </Item>
+    <!-- 摄像4K分辨率  -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <!-- 仅部分高端平台支持 -->
+    <Item>
+        <key>pref_camera_videosize_4k_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 摄像码率默认值  -->
+    <!-- 取值范围：{high,medium,low},默认为medium -->
+    <Item>
+        <key>pref_camera_video_rate_key</key>
+        <defaultValue>medium</defaultValue>
+    </Item>
+    <!-- 摄像码率默认值  -->
+    <!-- 该客制化项用于自定义摄像码率 -->
+    <!-- 默认为0,既不配置,使用默认的码率 -->
+    <!-- 12个0依次对应4K高,4K中,4K低,1080P高,1080P中,1080P低,720P高,720P中,720P低,480P高,480P中,480P低 -->
+    <!-- 高中低分别对应到设置菜单中摄像码率的高中低三挡 -->
+    <!-- 举例,如需配置1080P高码率为15000000 -->
+    <!-- 则修改defaultValue为0,0,0,15000000,0,0,0,0,0,0,0,0 -->
+    <Item>
+        <key>pref_camera_video_rate_value_key</key>
+        <defaultValue>0,0,0,0,0,0,0,0,0,0,0,0</defaultValue>
+    </Item>
+    <!-- 来电铃声响起是否需要停止摄像  -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_call_ring_need_stopvideorecording_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 启动相机时默认后/前摄 -->
+    <!-- 取值范围：{back,front,record},默认为back -->
+    <!-- 启动包括桌面冷启动,第三方拉起,锁屏拉起等情况 -->
+    <!-- back:启动时进入后摄 -->
+    <!-- front:启动时进入前摄 -->
+    <!-- record:启动时进入前一次退出相机时的状态 -->
+    <Item>
+        <key>pref_camera_id_default_key</key>
+        <defaultValue>back</defaultValue>
+    </Item>
+    <!-- 后摄切换到前摄时默认模式 -->
+    <!-- 取值范围：{none,photonormal,beautyshot},默认为none,切换前后摄时停留在当前模式  -->
+    <Item>
+        <key>pref_camera_cameramode_back_to_front_key</key>
+        <defaultValue>none</defaultValue>
+    </Item>
+    <!-- 前摄切换到后摄时默认模式 -->
+    <!-- 取值范围：{none,photonormal,beautyshot},默认为none,切换前后摄时停留在当前模式  -->
+    <Item>
+        <key>pref_camera_cameramode_front_to_back_key</key>
+        <defaultValue>none</defaultValue>
+    </Item>
+    <!-- 闪光灯默认状态-->
+    <!-- 取值范围：{auto,off,on},设置为auto时摄像闪光灯状态默认为关闭,设置为on时摄像闪光灯状态默认为常亮  -->
+    <Item>
+        <key>pref_camera_flashmode_key</key>
+        <defaultValue>auto</defaultValue>
+    </Item>
+    <!-- 前摄闪屏拍照功能 -->
+    <!-- 取值范围：{on,off},设置为on,则前置镜头显示闪光灯开关  -->
+    <!-- 针对无前置闪光灯项目,在暗光环境下,前摄拍照时闪白屏达到补光效果 -->
+    <Item>
+        <key>pref_camera_retina_flash_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 美颜模式前摄闪光灯 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <!-- 美颜模式默认不使用闪光灯,隐藏闪光灯图标,修改为on则前摄美颜支持闪光灯 -->
+    <Item>
+        <key>pref_camera_flash_show_beautymode_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 前摄连拍功能 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <Item>
+        <key>pref_camera_continus_mode_front_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 展讯连拍功能  -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <!-- ISU-2019-00587 ze.zhang  -->
+    <Item>
+        <key>pref_camera_sprd_m_continus_mode_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 连拍时最大张数限制 -->
+    <!-- 取值范围：{10,20,30,40,50},默认为40 -->
+    <Item>
+        <key>pref_camera_shot_to_shot_num_limit_key</key>
+        <defaultValue>40</defaultValue>
+    </Item>
+    <!-- 拍照动画 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <Item>
+        <key>pref_camera_capture_animation_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 相机数码变焦最大放大倍数  -->
+    <!-- 取值范围：{0, 1, 2, 3},默认为0,不做修改(QCOM、MTK平台为4.0,SPRD平台为3.9),修改为1时,则不支持数码变焦功能 -->
+    <Item>
+        <key>pref_camera_zoom_max_key</key>
+        <defaultValue>0</defaultValue>
+    </Item>
+    <!-- 真对焦声音 -->
+    <!-- 取值范围：{off,on},默认为off -->
+    <!-- 设置为on则手动对焦成功时会播放对焦声音 -->
+    <Item>
+        <key>pref_camera_focus_sound_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 后摄假对焦 -->
+    <!-- 取值范围：{off,on,sensor},默认为off,配为on则通过监听重力传感器实现假对焦,配为sensor则通过监听加速计传感器实现假对焦 -->
+    <!-- 必须在无真对焦手机上才能使用假对焦。效果上sensor模式更好,但会提升功耗,部分机型可能不支持该传感器 -->
+    <Item>
+        <key>pref_camera_dummy_focus_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 前摄假对焦 -->
+    <!-- 取值范围：{off,on,sensor},默认为off -->
+    <Item>
+        <key>pref_camera_dummy_focus_front_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 启用假对焦时,只显示对焦框,不显示屏幕缩放动作。必须在打开假对焦功能时此项才有效 -->
+    <!-- 取值范围：{off,on},默认为off -->
+    <Item>
+        <key>pref_camera_dummy_focus_simple_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 假对焦声音 -->
+    <!-- 取值范围：{off,on},默认为on -->
+    <Item>
+        <key>pref_camera_dummy_focus_sound_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 假对焦触发角度 -->
+    <!-- 取值范围：{20,25,30,35,40,45,50},默认值为35,请根据具体情况在取值范围内取值 -->
+    <Item>
+        <key>pref_camera_auto_focus_angle_key</key>
+        <defaultValue>35</defaultValue>
+    </Item>
+    <!-- 对焦测光分离 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <!-- 开启该功能后,手动对焦时会出现测光框,移动测光框可以使测光与对焦处于不同位置 -->
+    <Item>
+        <key>pref_camera_separate_focus_meter_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- android原生人脸识别功能  ze.zhang ISU-2019-00594-->
+    <!-- 取值范围：{on,off},默认为off,设置为on则后摄正常拍照模式下会使用原生人脸识别功能 -->
+    <!-- 部分平台打开该功能会影响人脸的曝光效果 -->
+    <Item>
+        <key>pref_camera_origin_face_detect_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- android原生人脸识别功能  -->
+    <!-- 取值范围：{on,off},默认为off,设置为on则前摄正常拍照模式下会使用原生人脸识别功能 -->
+    <!-- 部分平台打开该功能会影响人脸的曝光效果 -->
+    <Item>
+        <key>pref_camera_origin_face_detect_front_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- android原生人脸识别人脸框  -->
+    <!-- 取值范围：{on,off},默认为off,设置为on则后摄正常拍照模式下会显示人脸识别框 -->
+    <Item>
+        <key>pref_camera_origin_face_detect_ui_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- android原生人脸识别人脸框  -->
+    <!-- 取值范围：{on,off},默认为off,设置为on则前摄正常拍照模式下会显示人脸识别框 -->
+    <Item>
+        <key>pref_camera_origin_face_detect_ui_front_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 默认存储位置 -->
+    <!-- 取值范围：{internal,external},默认为internal,设置为external则默认优先使用SD卡存储 -->
+    <Item>
+        <key>pref_camera_storage_path_key</key>
+        <defaultValue>internal</defaultValue>
+    </Item>
+    <!-- 前置镜像拍照开关 -->
+    <!-- 取值范围：{on,off},默认为on,在相机设置菜单包含前置镜像拍照选项  -->
+    <Item>
+        <key>pref_camera_front_camera_mirror_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 前置镜像拍照功能默认值 -->
+    <!-- 取值范围：{on,off},默认为on  -->
+    <Item>
+        <key>pref_camera_front_camera_mirror_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 快门声音开关  -->
+    <!-- 取值范围：{on,off},默认为off,在相机设置菜单不包含快门声音选项  -->
+    <!-- 某些国家与区域、运营商要求快门声音不能关闭,该项无效 -->
+    <Item>
+        <key>pref_camera_shutter_sound_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 快门声音默认值 -->
+    <!-- 取值范围：{on,off},默认为on  -->
+    <Item>
+        <key>pref_camera_shutter_sound_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 二维码识别功能开关 -->
+    <!-- 取值范围：{on,off},默认为on,在相机 模式菜单包含二维码功能选项 -->
+    <Item>
+        <key>pref_camera_barcode_scaner_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 地理位置功能开关 -->
+    <!-- 取值范围：{on,off},默认为on,在相机设置菜单包含地理位置选项  -->
+    <Item>
+        <key>pref_camera_recordlocation_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 地理位置默认值 -->
+    <!-- 取值范围：{on,off},默认为off  -->
+    <Item>
+        <key>pref_camera_recordlocation_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 触屏拍照功能开关 -->
+    <!-- 取值范围：{on,off},默认为on,在相机设置菜单包含触屏拍照选项  -->
+    <Item>
+        <key>pref_camera_touch_shutter_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 避免闪烁功能开关 -->
+    <!-- 取值范围：{on,off},默认为on,在相机设置菜单包含避免闪烁选项 -->
+    <Item>
+        <key>pref_camera_antibanding_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 避免闪烁功能默认值 -->
+    <!-- 取值范围：{auto,off,50hz,60hz},默认为auto -->
+    <Item>
+        <key>pref_camera_antibanding_key</key>
+        <defaultValue>auto</defaultValue>
+    </Item>
+    <!-- MTK 拍照模式电子防抖功能， 是否需要打开这个功能， 显示菜单 -->
+    <!-- 取值范围：{on,off},默认为off,在相机设置菜单不包含该菜单 -->
+    <!-- 拍照电子防抖使用的是MTK原生的方案， 该方案在开启防抖后拍照会比普通拍照慢些 -->
+    <Item>
+        <key>pref_camera_antishaking_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- MTK 拍照模式电子防抖默认值 -->
+    <!-- 取值范围：{on,off},默认为off-->
+    <!-- 拍照电子防抖使用的是MTK原生的方案， 依赖底层特性，在有些MTK平台打开电子防抖后拍照速度会慢许多 -->
+    <Item>
+        <key>pref_camera_antishaking_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 视频防抖功能， 是否需要打开这个功能， 显示菜单 -->
+    <!-- 取值范围：{on,off},默认为off,在相机设置菜单不包含该菜单 -->
+    <!-- 使用原生的方案， 需要底层 参数 video-stabilization-supported 为true 才能支持这个功能 -->
+    <Item>
+        <key>pref_camera_video_stabilization_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 视频防抖功能默认值 -->
+    <!-- 取值范围：{on,off},默认为off-->
+    <!-- 使用原生的方案， 需要底层 参数 video-stabilization-supported 为true 才能支持这个功能-->
+    <!-- 使用原生的方案，MTK 默认的视频录像帧率是固定的， 开启防抖会变暗， 需要底层调试好， 不然， 请勿默认打开 -->
+    <Item>
+        <key>pref_camera_video_stabilization_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- ZSL(无延时拍照)功能开关 -->
+    <!-- 取值范围：{on,off},默认为off,设置为on则在相机设置菜单包含ZSL选项 -->
+    <Item>
+        <key>pref_camera_zsl_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- MTK平台ZSL(无延时拍照)功能 -->
+    <!-- 取值范围：{on,off},默认为off,设置为on则默认开启ZSL  -->
+    <Item>
+        <key>pref_camera_zsl_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 展讯平台ZSL功能 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <!-- 展讯平台Camera 9832 需要合入patch该功能才能打开， 展讯9850, 9853不需要patch, 设置为on则设置里面有开关，并且zsl默认打开 -->
+    <Item>
+        <key>pref_camera_sprd_zsl_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 高通平台ZSL功能 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <!-- 设置为on表示默认打开zsl, 拍照速度会快很多 -->
+    <Item>
+        <key>pref_camera_qcom_zsl_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- MTK场景自动识别功能开关  -->
+    <!-- 取值范围：{on,off},默认为off,设置为on则在相机设置菜单包含场景自动识别选项 -->
+    <Item>
+        <key>pref_camera_scene_detect_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- MTK场景自动识别功能默认值  -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_scene_detect_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- MTK平台取景模式开关 -->
+    <!-- 取值范围：{on,off},默认为off,设置为on则在相机设置菜单包含取景模式选项  -->
+    <Item>
+        <key>pref_camera_scenemode_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 相机屏幕亮度默认值 -->
+    <!-- 取值范围：{low,medium,high},默认为medium -->
+    <Item>
+        <key>pref_camera_screen_brightness_key</key>
+        <defaultValue>high</defaultValue>
+    </Item>
+    <!-- 相机亮度设置为固定值  -->
+    <!-- 取值范围：[0, 255],默认为-1(不设置) -->
+    <!-- 设置该项时,相机设置菜单不包含屏幕亮度设置菜单,屏幕亮度越高功耗越大,请谨慎使用 -->
+    <Item>
+        <key>pref_camera_screen_brightness_value_key</key>
+        <defaultValue>-1</defaultValue>
+    </Item>
+    <!-- 输入手机型号,拍摄的图片与视频将会以其作为开头来命名(如型号名称为“360OS”,则输入“&apos;360OS&apos;”) -->
+    <Item>
+        <key>pref_camera_phone_model_name_key</key>
+        <defaultValue></defaultValue>
+    </Item>
+    <!-- 相机图库图片双指放大最大倍数  -->
+    <!-- 取值范围：[1.0, 4.0],取值为1.0时,既无法放大-->
+    <!-- 能取到的最大放大倍数与屏幕分辨率,照片分辨率有关,默认为4.0,部分机型可能达不到4倍,会自动取能放大的最大倍数  -->
+    <Item>
+        <key>pref_gallery_zoom_max_key</key>
+        <defaultValue>4.0</defaultValue>
+    </Item>
+    <!-- 相机图库图片双指放大后回缩位置  -->
+    <!-- 取值范围：[1.0, 4.0],取值为1.0时,既会回缩到原始状态,该值不能大于双指放大最大倍数-->
+    <Item>
+        <key>pref_gallery_zoom_retraction_key</key>
+        <defaultValue>4.0</defaultValue>
+    </Item>
+    <!-- 相机图库图片双击放大最大倍数  -->
+    <!-- 取值范围：[1.0, 4.0],取值为1.0时,既无法放大-->
+    <Item>
+        <key>pref_gallery_zoom_doubletap_max_key</key>
+        <defaultValue>4.0</defaultValue>
+    </Item>
+    <!-- 自定义KEYCODE值触发快门 -->
+    <!-- 取值范围：所有可用的KeyEvent.KEYCODE,为正整数 -->
+    <!-- 修改该值后底层上报对应KEYCODE,会触发快门进行拍照、录像 -->
+    <Item>
+        <key>pref_camera_keycode_shutter_key</key>
+        <defaultValue>141</defaultValue>
+    </Item>
+    <!-- 自定义KEYCODE值触发相机副摄遮挡提示(针对副摄像头,仅在虚化模式下生效) -->
+    <!-- 取值范围：所有可用的KeyEvent.KEYCODE,为正整数 -->
+    <!-- 修改该值后底层上报对应KEYCODE,应用会弹出/取消遮挡提示,遮挡时虚化模式下去除实时虚化效果,拍照为普通拍照 -->
+    <Item>
+        <key>pref_camera_keycode_subcamera_covered_key</key>
+        <defaultValue>-1</defaultValue>
+    </Item>
+    <Item>
+        <key>pref_camera_keycode_subcamera_uncovered_key</key>
+        <defaultValue>-1</defaultValue>
+    </Item>
+    <!-- 项目名 -->
+    <!-- 用于配置某些项目特有的修改,一般将该项配置为bug单上对应的项目名 -->
+    <Item>
+        <key>pref_camera_project_name_key</key>
+        <defaultValue></defaultValue>
+    </Item>
+    <!-- Logo水印开关是否显示  -->
+    <!-- 取值范围：{on, off}, 默认为off, 设置菜单中不显示该功能的开关, 且Logo水印为关闭  -->
+    <Item>
+        <key>pref_camera_logo_watermark_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 默认Logo水印打开状态 -->
+    <!-- 取值范围：{on, off}, 默认为off-->
+    <Item>
+        <key>pref_camera_logo_watermark_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 是否在设置菜单中显示视频录制输出格式 -->
+    <!-- 取值范围：{on,off}, 默认为off -->
+    <Item>
+        <key>pref_camera_outputformat_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 视频录制输出格式 -->
+    <!-- 1(3GP)和2(MP4)，默认为2(MP4) -->
+    <Item>
+        <key>pref_camera_outputformat_key</key>
+        <defaultValue>2</defaultValue>
+    </Item>
+    <!-- 前摄人像模式 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <Item>
+        <key>pref_camera_fabby_mode_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 音量键功能 -->
+    <!-- 用于配置音量键功能，取值范围[‘volume’、‘capture’、‘zoom’], 默认为capture(拍照)，支持volume(音量)和zoom(变焦) -->
+    <Item>
+        <key>pref_camera_volume_button_key</key>
+        <defaultValue>capture</defaultValue>
+    </Item>
+    <!-- 专业模式 -->
+    <!--  可以调节白平衡， 感光度， 曝光补偿， 饱和度， 对比度， 亮度 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <Item>
+        <key>pref_camera_professional_mode_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- Gif拍照模式 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_gifshot_mode_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 延时摄影模式 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_timelapse_mode_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 录像慢动作模式 ISU-2019-00676 ze.zhang-->
+    <!-- 取值范围：{on,off},默认为off -->
+    <!-- 此功能需要在比较高端的机器上才能打开， 摄像头捕获的帧率需要支持达到100帧以上 -->
+    <Item>
+        <key>pref_camera_slowmotion_mode_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 展讯平台是否需要去掉打闪先对焦后拍照功能,默认有, 如果需要去掉, 配置成on   -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_is_need_remove_flash_focus_beforecapture__key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 拍照动画使用老版本的水波纹效果 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_old_capture_anim_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 相机手势是否显示双击打开相机项 -->
+    <!-- 取值范围：{on,off},默认为on -->
+    <Item>
+        <key>pref_camera_fast_open_camera_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 前摄 柔光拍照， 菜单只有常亮和关闭， 需要前摄配置柔光灯，并且亮度不能太刺眼-->
+    <!-- 取值范围：{on, off}, 默认为off-->
+    <!-- 当配置为off时， 前置闪光灯菜单为off, auto, on,  设置为on, 拍照会闪
+           当配置为on时， mtk， qcom平台菜单为off, torch,  展讯平台为off, auto, torch-->
+    <Item>
+        <key>pref_camera_front_flash_softlight_enable_key</key>
+        <defaultValue>off</defaultValue>
+    </Item>
+    <!-- 是否需要录像静音功能 -->
+    <!-- 取值范围：{on,off},默认为off,在相机设置菜单中没有录像静音选项  -->
+    <Item>
+        <key>pref_camera_video_mute_enable_key</key>
+        <defaultValue>on</defaultValue> 
+    </Item>
+
+
+
+    <!-- 录像时允许音频输入设备被占用时忽略录音 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_ignore_audio_record_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+    <!-- 连拍是否强制保存到内置存储 -->
+    <!-- 取值范围：{on,off},默认为off -->
+    <Item>
+        <key>pref_camera_shot2shot_internal_storage_enable_key</key>
+        <defaultValue>on</defaultValue>
+    </Item>
+</CameraPreferences>

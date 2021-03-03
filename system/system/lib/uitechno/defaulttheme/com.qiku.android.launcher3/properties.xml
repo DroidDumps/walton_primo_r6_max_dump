@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<item key="CALENDAR_WITH_WEEK" value="true"/>
+<item key="CALENDAR_WEEK_USE_COLOR" value="true"/>
+<item key="CALENDAR_WEEK_PADDING_TOP" value="19"/>
+<item key="CALENDAR_WEEK_COLOR" value="#FF2222"/>
+<item key="CALENDAR_WEEK_TEXT_SIZE" value="9"/>
+<item key="USE_FULL_ICON" value="true"/>
+<item key="QIKU_LAUNCHER_THEME" value="true"/>
+<item key="THIRDPART_ICON_WIDTH" value="52"/>
+<item key="THIRDPART_ICON_HEIGHT" value="52"/>
+</root>

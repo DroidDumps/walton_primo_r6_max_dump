@@ -1,0 +1,66 @@
+service ylog /system/bin/ylog
+    class main
+    socket ylog seqpacket 0666 ylog ylog
+    user root
+    disabled
+    writepid /dev/cpuset/system-background/tasks
+
+service ylog_force_startup /system/bin/ylog FORCE_STARTUP
+    class main
+    socket ylog seqpacket 0666 ylog ylog
+    user root
+    disabled
+    writepid /dev/cpuset/system-background/tasks
+
+on post-fs-data
+    mkdir /cache/ylog 0777 system system
+    mkdir /data/ylog 0777
+    start ylog
+
+on property:init.svc.logd=running
+    start ylog
+
+on property:ro.bootmode=charger && property:ro.debuggable=1
+    mkdir /cache/ylog 0777
+    chmod 0777 /proc/kmsg
+    start ylog_force_startup
+
+# Start the ylog daemon
+on property:persist.sys.ylog.enabled=1
+    start ylog
+
+# Stop the ylog daemon
+on property:persist.sys.ylog.enabled=0
+    stop ylog
+
+on property:ro.bootmode=cali
+    mkdir /cache/ylog 0777
+    chmod 0777 /proc/kmsg
+    start ylog_force_startup
+    stop logd-cali
+    start logd-cali2
+
+
+on property:ro.bootmode=autotest
+    mkdir /cache/ylog 0777
+    chmod 0777 /proc/kmsg
+    start ylog_force_startup
+    stop logd-cali
+    start logd-cali2
+
+
+on early-init
+    mkdir /dev/socket/ylog 0755 system system
+
+
+service logd-cali2 /system/bin/logd
+    class cali_
+    socket logd stream 0666 logd logd
+    socket logdr seqpacket 0666 logd logd
+    socket logdw dgram 0222 logd logd
+    socket logdylog seqpacket 0666 logd logd
+    file /proc/kmsg r
+    file /dev/kmsg w
+    user logd
+    seclabel u:r:logd:s0
+

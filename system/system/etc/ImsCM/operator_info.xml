@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<operators version="1">
+    <!-- numeric: mcc + mnc -->
+    <!-- name: operator name -->
+
+    <!-- TRUE -->
+    <operator numeric="520000" name="true" />
+    <operator numeric="520004" name="true" />
+
+    <!-- DTAC -->
+    <operator numeric="520005" name="dtac" />
+    <operator numeric="520018" name="dtac" />
+
+    <!-- AIS -->
+    <operator numeric="520003" name="ais"/>
+
+    <!-- SMARTFREN -->
+    <operator numeric="510009" name="smartfren"/>
+    <operator numeric="510028" name="smartfren"/>
+
+    <!-- VODAFONE -->
+    <operator numeric="262002" name="vodafone"/>
+
+    <!-- Reliance -->
+    <operator numeric="405840" name="reliance"/>
+    <operator numeric="405854" name="reliance"/>
+    <operator numeric="405855" name="reliance"/>
+    <operator numeric="405856" name="reliance"/>
+    <operator numeric="405857" name="reliance"/>
+    <operator numeric="405858" name="reliance"/>
+    <operator numeric="405859" name="reliance"/>
+    <operator numeric="405860" name="reliance"/>
+    <operator numeric="405861" name="reliance"/>
+    <operator numeric="405862" name="reliance"/>
+    <operator numeric="405863" name="reliance"/>
+    <operator numeric="405864" name="reliance"/>
+    <operator numeric="405865" name="reliance"/>
+    <operator numeric="405866" name="reliance"/>
+    <operator numeric="405867" name="reliance"/>
+    <operator numeric="405868" name="reliance"/>
+    <operator numeric="405869" name="reliance"/>
+    <operator numeric="405870" name="reliance"/>
+    <operator numeric="405871" name="reliance"/>
+    <operator numeric="405872" name="reliance"/>
+    <operator numeric="405873" name="reliance"/>
+    <operator numeric="405874" name="reliance"/>
+
+    <!-- TELCEL -->
+    <operator numeric="334020" name="telcel"/>
+</operators>

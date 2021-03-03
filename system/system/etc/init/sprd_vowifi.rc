@@ -1,0 +1,8 @@
+
+#vowifi ipsec_server
+service ju_ipsec_server /system/bin/ju_ipsec_server
+    class main
+    socket ju_ipsec_server stream 600 system system
+    user root
+    group root vpn
+#    oneshot

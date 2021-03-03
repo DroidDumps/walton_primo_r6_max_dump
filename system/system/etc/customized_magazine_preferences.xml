@@ -1,0 +1,21 @@
+<!-- 请修改该配置文件后,集成到/system/etc/目录下面 -->
+<!-- 各个选项请不要修改对应的key值,只修改defaultValue的值,在取值范围内选取,设置取值范围之外的值则为无效值 -->
+
+<SystemUIPreferences>
+    <!-- 海外杂志的渠道号：qiku_xxx;目前支持以下渠道号qiku_india、qiku_se_asia、qiku_oversea。
+    其中qiku_india：用于印度市场;qiku_se_asia：东南亚国家使用;qiku_oversea：通用渠道号，用于前两个渠道以外的其他国家-->
+    <Item>
+        <key>pref_channel_code</key>
+        <defaultValue>qiku_oversea</defaultValue>
+    </Item>
+    <!-- 为true 海外杂志默认开启，否则默认关闭-->
+    <Item>
+        <key>pref_abroad_magazine_enable</key>
+        <defaultValue>true</defaultValue>
+    </Item>
+    <!-- 为1 杂志切换频率显示，为0杂志每次亮屏切换显示-->
+    <Item>
+        <key>pref_magazine_switch_rate_plan</key>
+        <defaultValue>0</defaultValue>
+    </Item>
+</SystemUIPreferences>

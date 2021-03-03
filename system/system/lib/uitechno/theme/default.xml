@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <item>
+        <lang_en>Default</lang_en>
+        <lang_zh-rCN>默认版</lang_zh-rCN>
+        <file>default.theme</file>
+        <img>default.jpg</img>
+    </item>
+    <item>
+        <lang_en>Mentha Citrata</lang_en>
+        <lang_zh-rCN>香柠薄荷</lang_zh-rCN>
+        <file>mentha_citrata.theme</file>
+        <img>mentha_citrata.jpg</img>
+    </item>
+    <item>
+        <lang_en>Elite Edition</lang_en>
+        <lang_zh-rCN>精英版</lang_zh-rCN>
+        <file>elite.theme</file>
+        <img>elite.jpg</img>
+    </item>
+    <item>
+        <lang_en>Circle Edition</lang_en>
+        <lang_zh-rCN>圆周版</lang_zh-rCN>
+        <file>circle.theme</file>
+        <img>circle.jpg</img>
+    </item>
+    <item>
+        <lang_en>Simple Fashion</lang_en>
+        <lang_zh-rCN>轻尚版</lang_zh-rCN>
+        <file>simple_fashion.theme</file>
+        <img>simple_fashion.jpg</img>
+    </item>
+    <item>
+        <lang_en>Fabulous Edition</lang_en>
+        <lang_zh-rCN>凝光版</lang_zh-rCN>
+        <file>fabulous.theme</file>
+        <img>fabulous.jpg</img>
+    </item>
+</themes>

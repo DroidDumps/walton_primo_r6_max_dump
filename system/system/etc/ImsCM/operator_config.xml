@@ -1,0 +1,3221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<operator-configs version="1">
+
+    <!-- Reliance -->
+    <operator-config
+        operatorName                    = "reliance"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "false"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "35"
+        qosAudioJitterMedium            = "250"
+        qosAudioRttMedium               = "2500"
+        qosVideoLossMedium              = "30"
+        qosVideoJitterMedium            = "250"
+        qosVideoRttMedium               = "2500"
+
+        qosAudioLossLow                 = "45"
+        qosAudioJitterLow               = "350"
+        qosAudioRttLow                  = "3500"
+        qosVideoLossLow                 = "40"
+        qosVideoJitterLow               = "350"
+        qosVideoRttLow                  = "3500"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- TRUE -->
+    <operator-config
+        operatorName                    = "true"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "20"
+        volteCallThresholdLoopCount     = "20"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "40"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Dtac -->
+    <operator-config
+        operatorName                    = "dtac"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- AIS -->
+    <operator-config
+        operatorName                    = "ais"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-102"
+        lteRsrpHigh                     = "-97"
+
+        wifiIdleRssiLow                 = "-85"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-85"
+        wifiCallRssiHigh                = "-75"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- TIM -->
+    <operator-config
+        operatorName                    = "tim"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- YTLC -->
+    <operator-config
+        operatorName                    = "ytlc"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Smartfren -->
+    <operator-config
+        operatorName                    = "smartfren"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "false"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- EE -->
+    <operator-config
+        operatorName                    = "ee"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "false"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "true"
+        customRetryAttemptTimes         = "10,30,60,120,300"
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- DTAG -->
+    <operator-config
+        operatorName                    = "dtag"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- VODAFONE -->
+    <operator-config
+        operatorName                    = "vodafone"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-116"
+        lteRsrpHigh                     = "-110"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-116"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-110"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-102"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- VODAFONE UK-->
+    <operator-config
+        operatorName                    = "vodafone_uk"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-116"
+        lteRsrpHigh                     = "-110"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-116"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-110"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-102"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "false"
+        countryCodes                    = "GB,GBR"
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- VODAFONE NL-->
+    <operator-config
+        operatorName                    = "vodafone_nl"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-118"
+        lteRsrpHigh                     = "-104"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-118"
+        cellPref4gDbmHigh               = "-104"
+        cellPref3gDbmLow                = "-112"
+        cellPref3gDbmHigh               = "-104"
+        cellPref2gDbmLow                = "-102"
+        cellPref2gDbmHigh               = "-94"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- VODAFONE CZ-->
+    <operator-config
+        operatorName                    = "vodafone_cz"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-118"
+        lteRsrpHigh                     = "-110"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-118"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-110"
+        cellPref3gDbmHigh               = "-100"
+        cellPref2gDbmLow                = "-100"
+        cellPref2gDbmHigh               = "-94"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- TELCEL -->
+    <operator-config
+        operatorName                    = "telcel"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-119"
+        lteRsrpHigh                     = "-116"
+
+        wifiIdleRssiLow                 = "-85"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-85"
+        wifiCallRssiHigh                = "-75"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "7"
+        volteCallThresholdLoopCount     = "5"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "false"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-119"
+        cellPref4gDbmHigh               = "-116"
+        cellPref3gDbmLow                = "-109"
+        cellPref3gDbmHigh               = "-108"
+        cellPref2gDbmLow                = "-95"
+        cellPref2gDbmHigh               = "-90"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Etisalat -->
+    <operator-config
+        operatorName                    = "etisalat"
+
+        vowifiOnAirPlaneMode            = "false"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- MTN -->
+    <operator-config
+        operatorName                    = "mtn"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-80"
+        wifiIdleRssiHigh                = "-71"
+        wifiCallRssiLow                 = "-80"
+        wifiCallRssiHigh                = "-71"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Claro -->
+    <operator-config
+        operatorName                    = "claro"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-85"
+        wifiIdleRssiHigh                = "-65"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-65"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- SMART -->
+    <operator-config
+        operatorName                    = "smart"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- South Africa Cellc -->
+    <operator-config
+        operatorName                    = "cellc"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Orange -->
+    <operator-config
+        operatorName                    = "orange"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-85"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-85"
+        wifiCallRssiHigh                = "-75"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Orange OFR-->
+    <operator-config
+        operatorName                    = "orange_ofr"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-85"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-85"
+        wifiCallRssiHigh                = "-75"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "false"
+        countryCodes                    = "FR,FRA"
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Movistar -->
+    <operator-config
+        operatorName                    = "movistar"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- MTS -->
+    <operator-config
+        operatorName                    = "mts"
+
+        vowifiOnAirPlaneMode            = "false"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Digicel  -->
+    <operator-config
+        operatorName                    = "digicel"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Vivo -->
+    <operator-config
+        operatorName                    = "vivo"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Digi -->
+    <operator-config
+        operatorName                    = "digi"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- FET -->
+    <operator-config
+        operatorName                    = "fet"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "7"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "false"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- CHT -->
+    <operator-config
+        operatorName                    = "cht"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "7"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "false"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- APTG -->
+    <operator-config
+        operatorName                    = "aptg"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Telstra -->
+    <operator-config
+        operatorName                    = "telstra"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-118"
+        lteRsrpHigh                     = "-110"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-118"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-110"
+        cellPref3gDbmHigh               = "-106"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Hutchison -->
+    <operator-config
+        operatorName                    = "hutchison"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Hutchison UK-->
+    <operator-config
+        operatorName                    = "hutchison_uk"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "false"
+        countryCodes                    = "GB,GBR"
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- O2 -->
+    <operator-config
+        operatorName                    = "o2"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Vodacom -->
+    <operator-config
+        operatorName                    = "vodacom"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-116"
+        lteRsrpHigh                     = "-110"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-116"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-110"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-102"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Play -->
+    <operator-config
+        operatorName                    = "play"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Cosmote -->
+    <operator-config
+        operatorName                    = "cosmote"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-118"
+        lteRsrpHigh                     = "-117"
+
+        wifiIdleRssiLow                 = "-85"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-85"
+        wifiCallRssiHigh                = "-75"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- Telekom -->
+    <operator-config
+        operatorName                    = "telekom"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- ENTEL -->
+    <operator-config
+        operatorName                    = "entel"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-85"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-85"
+        wifiCallRssiHigh                = "-75"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- MEGAFON -->
+    <operator-config
+        operatorName                    = "megafon"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-85"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-85"
+        wifiCallRssiHigh                = "-75"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- IDEA -->
+    <operator-config
+        operatorName                    = "idea"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- ALTICE -->
+    <operator-config
+        operatorName                    = "altice"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- TELENOR -->
+    <operator-config
+        operatorName                    = "telenor"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- OPTUS -->
+    <operator-config
+        operatorName                    = "optus"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-113"
+        lteRsrpHigh                     = "-104"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-113"
+        cellPref4gDbmHigh               = "-104"
+        cellPref3gDbmLow                = "-108"
+        cellPref3gDbmHigh               = "-99"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "false"
+        countryCodes                    = "AU,AUS"
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- WOM -->
+    <operator-config
+        operatorName                    = "wom"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- BOUYGUES -->
+    <operator-config
+        operatorName                    = "bouygues"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-122"
+        lteRsrpHigh                     = "-114"
+
+        wifiIdleRssiLow                 = "-79"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-79"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "true"
+        cellPref4gDbmLow                = "-122"
+        cellPref4gDbmHigh               = "-114"
+        cellPref3gDbmLow                = "-113"
+        cellPref3gDbmHigh               = "-108"
+        cellPref2gDbmLow                = "-104"
+        cellPref2gDbmHigh               = "-100"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "false"
+        countryCodes                    = "FR,FRA"
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- GRAMEENPHONE -->
+    <operator-config
+        operatorName                    = "grameenphone"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-70"
+        wifiIdleRssiHigh                = "-65"
+        wifiCallRssiLow                 = "-70"
+        wifiCallRssiHigh                = "-65"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- TWM -->
+    <operator-config
+        operatorName                    = "twm"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+    <!-- UNKNOWN -->
+    <operator-config
+        operatorName                    = "unknown"
+
+        vowifiOnAirPlaneMode            = "true"
+
+        popupErrorNotification          = "true"
+        popupErrorRetryCount            = "3"
+
+        triggerVowifiAfter4g            = "false"
+
+        lteRsrpLow                      = "-115"
+        lteRsrpHigh                     = "-106"
+
+        wifiIdleRssiLow                 = "-82"
+        wifiIdleRssiHigh                = "-75"
+        wifiCallRssiLow                 = "-75"
+        wifiCallRssiHigh                = "-70"
+
+        qosAudioLossMedium              = "30"
+        qosAudioJitterMedium            = "200"
+        qosAudioRttMedium               = "2000"
+        qosVideoLossMedium              = "20"
+        qosVideoJitterMedium            = "200"
+        qosVideoRttMedium               = "2000"
+
+        qosAudioLossLow                 = "40"
+        qosAudioJitterLow               = "300"
+        qosAudioRttLow                  = "3000"
+        qosVideoLossLow                 = "30"
+        qosVideoJitterLow               = "300"
+        qosVideoRttLow                  = "3000"
+
+        vowifiThresholdLoopCount        = "7"
+        vowifiQosLoopCount              = "7"
+        volteThresholdLoopCount         = "15"
+        volteCallThresholdLoopCount     = "15"
+
+        quicklyCalculatePolicyLogic     = "true"
+        quicklyCalculateTime            = "1"
+
+        exactlyCalculatePolicyLogic     = "true"
+        exactlyCalculateLastCount       = "2"
+
+        punitivePolicyLogic             = "true"
+        punitiveIntervalTime            = "5"
+        punitiveMaxTime                 = "30"
+
+        customRetryPolicyLogic          = "false"
+        customRetryAttemptTimes         = ""
+
+        cellularPreferred432Vowifi      = "false"
+        cellPref4gDbmLow                = "-130"
+        cellPref4gDbmHigh               = "-110"
+        cellPref3gDbmLow                = "-120"
+        cellPref3gDbmHigh               = "-105"
+        cellPref2gDbmLow                = "-110"
+        cellPref2gDbmHigh               = "-99"
+
+        mobikeAnotherApTimeout          = "6000"
+
+        vowifiOnRoaming                 = "true"
+        countryCodes                    = ""
+
+        stayVolteInAudioCall            = "false"
+    />
+
+</operator-configs>
